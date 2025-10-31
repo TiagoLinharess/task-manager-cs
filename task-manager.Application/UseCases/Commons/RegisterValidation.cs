@@ -35,12 +35,12 @@ namespace task_manager.Application.UseCases.Commons
                 results.Add("Task description cannot exceed 500 characters.");
             }
 
-            if ((int)request.Status > 2)
+            if ((int)request.Status > 2 && (int)request.Status < 0)
             {
                 results.Add("Invalid task status.");
             }
 
-            if ((int)request.Priority > 2)
+            if ((int)request.Priority > 2 && (int)request.Priority < 0)
             {
                 results.Add("Invalid task priority.");
             }

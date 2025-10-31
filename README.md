@@ -1,4 +1,4 @@
-# API Library (api_library_cs)
+# API Task manager (task-manager-cs)
 
 Guia r�pido para clonar, restaurar depend�ncias e executar o projeto (.NET 8, C# 12).
 
